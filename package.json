@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "postinstall": "npm install"
+    "": ""
   },
   "repository": {
     "type": "git",
