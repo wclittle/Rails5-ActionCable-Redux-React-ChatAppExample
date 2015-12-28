@@ -17,4 +17,4 @@
 .byebug_history
 /node_modules
 /config/database.yml
-
+/config/redis/cable.yml
