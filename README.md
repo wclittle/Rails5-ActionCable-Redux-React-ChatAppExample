@@ -2,6 +2,8 @@
 
 Rails5 brings the long-awaited [ActionCable](https://github.com/rails/rails/tree/master/actioncable) (integrated websockets) into the game. Combined with the [Redux](https://github.com/rackt/redux) implementation of [Flux](https://facebook.github.io/flux/) - and of course [React](https://facebook.github.io/react/) components - there's potential here for an _interesting_ stack if you don't want to create a separate front-end app and use Rails5 as an API server (which it now [more easily](https://github.com/rails/rails/pull/19832) does out of the box as an option, BTW).
 
+Live demo [here](https://rails5reduxchat.herokuapp.com/).
+
 Anyway, I spent some time over the holiday break pulling examples from:
 
 * [react-rails](https://github.com/reactjs/react-rails)
@@ -13,7 +15,9 @@ Anyway, I spent some time over the holiday break pulling examples from:
 
 ..to create a _very simple_ chat app.
 
-I'll post some more background and motivation as a story on my Medium account at some point, so for now, let's dive right into the setup (I'm assuming you are familiar with Rails/JavaScript):
+If you're curious to learn more, I posted some background/motivation and a code walkthrough on my Medium account [here](https://medium.com/@wclittle/rails5-actioncable-redux-and-react-walking-through-an-example-chat-application-84fced7c5d27).
+
+Anyway, diving right into the setup (I'm assuming you are familiar with Rails/JavaScript):
 
 * Make sure you have Ruby 2.2.4, Rails 5.0.0.beta1, and recent versions of NPM, PostgreSQL, and Redis installed (for the Rails stuff, [here's a quick setup tutorial](https://articles.startuprocket.com/how-to-setup-a-mac-to-begin-developing-ruby-on-rails-web-applications-776435045393#.ld3h5plxs)).
 * Grab the [Redux dev tools Chrome exention](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
