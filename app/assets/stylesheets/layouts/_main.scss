@@ -1,0 +1,23 @@
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+ul {
+  list-style-type: disc;
+  margin: 10px;
+  padding: 10px;
+}
+li {
+    padding-left: 16px;
+}
+li:before {
+    content: "•";
+    padding-right: 8px;
+    color: black;
+}
+input[type="text"] {
+  margin-left: 16px;
+  width: 200px;
+}

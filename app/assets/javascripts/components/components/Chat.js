@@ -12,7 +12,11 @@ class Chat extends Component {
 
     const handleKeyUp = (e) => {
       if(e.keyCode == 13){
-        App.room.speak(e.target.value);
+        if (typeof App !== 'undefined'){
+          App.room.speak(e.target.value);
+        }else{
+          addMessage({id: messages.length + 1, content: e.target.value})
+        }
         e.target.value = "";
       };
     };

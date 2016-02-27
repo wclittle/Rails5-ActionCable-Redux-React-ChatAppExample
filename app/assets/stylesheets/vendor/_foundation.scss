@@ -1,0 +1,79 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  margin: 0;
+  font: 16px/1 sans-serif;
+}
+iframe {
+  border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+blockquote,
+figure,
+button {
+  margin: 0;
+  padding: 0;
+}
+main,
+li {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-size: inherit;
+}
+strong {
+  font-weight: bold;
+}
+sup {
+  position: relative;
+  top: -.5em;
+  font-size: 65%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+a,
+button {
+  color: inherit;
+  transition: global-transition-duration;
+}
+a {
+  text-decoration: none;
+}
+button {
+  overflow: visible;
+  border: 0;
+  font: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer;
+  -webkit-font-smoothing: inherit;
+  &:focus {
+    outline: 0;
+  }
+}
+::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}

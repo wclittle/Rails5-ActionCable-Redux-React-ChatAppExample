@@ -17,3 +17,4 @@
 .byebug_history
 /node_modules
 /config/database.yml
+/webpack_dist
