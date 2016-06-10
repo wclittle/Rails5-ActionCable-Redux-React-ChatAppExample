@@ -187,6 +187,7 @@ DEPENDENCIES
   puma
   rails (>= 5.0.0.rc1, < 5.1)
   react-rails (~> 1.5.0)
+  redis
   sassc-rails
   turbolinks
   tzinfo-data
